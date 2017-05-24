@@ -9,7 +9,7 @@ transform:
   - type: modifier
     name: mapping
     from: 期次
-    to: ID
+    to: 主键
     default: 0
     mappings:
     - from: '第一期'
@@ -20,8 +20,8 @@ transform:
       to: 3
   - type: modifier
     name: template
-    field: ID
-    template: "{加密号码}_{ID}"
+    field: 主键
+    template: "{加密号码}_{主键}"
 
 target:
   type: elasticsearch
@@ -31,4 +31,4 @@ target:
     host: 'http://localhost:9200/'
     indexName: merge_mp_20170524
     settingsFile: conf/merge_mp.json
-    deleteIndex: false
+    deleteIndex: true
