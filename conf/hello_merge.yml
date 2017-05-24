@@ -44,5 +44,5 @@ target:
   params:
     host: 'http://localhost:9200/'
     indexName: merge_mp_20170524
-    settingsFile: conf/merge_mp.json
+    mappingsFile: conf/merge_mp.json
     deleteIndex: true
