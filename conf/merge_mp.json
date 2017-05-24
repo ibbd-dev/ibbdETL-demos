@@ -1,0 +1,367 @@
+{
+    "properties": {
+        "主键": {
+            "type": "string",
+            "index": "not_analyzed"
+        },
+        "加密号码": {
+            "type": "string",
+            "index": "not_analyzed"
+        },
+        "期次": {
+            "type": "string",
+            "index": "not_analyzed"
+        },
+        "[Qo2] 运营商类型": {
+            "type": "string",
+            "index": "not_analyzed"
+        },
+        "[Qo5] 终端类型": {
+            "type": "string",
+            "index": "not_analyzed"
+        },
+        "[Qo3] 用户类型": {
+            "type": "string",
+            "index": "not_analyzed"
+        },
+        "[Qo4] 被访者地市": {
+            "type": "string",
+            "index": "not_analyzed"
+        },
+        "[D1] 性别": {
+            "type": "string",
+            "index": "not_analyzed"
+        },
+        "[D2] 是否为号码主要使用者": {
+            "type": "string",
+            "index": "not_analyzed"
+        },
+        "[Q1_1] 室内信号覆盖表现": {
+            "type": "float"
+        },
+        "[Q1_2] 室外信号覆盖表现": {
+            "type": "float"
+        },
+        "[Q1_3] 公车/地铁等特殊地点信号覆盖表现": {
+            "type": "float"
+        },
+        "[Q2] 接通情况表现": {
+            "type": "float"
+        },
+        "[Q3] 通话质量表现": {
+            "type": "integer"
+        },
+        "[Q4] 是否手机上网": {
+            "type": "string",
+            "index": "not_analyzed"
+        },
+        "[Q5] 上传或下载的速度表现": {
+            "type": "float"
+        },
+        "[Q6] 网络的稳定性表现": {
+            "type": "float"
+        },
+        "[Q7] 在线视频/在线游戏/地图搜索等应用表现": {
+            "type": "float"
+        },
+        "[Q8] 短彩信发送与接收表现": {
+            "type": "float"
+        },
+        "[Q9] 手机的整体表现": {
+            "type": "float"
+        },
+        "[Q10] 品牌的印象表现": {
+            "type": "float"
+        },
+        "[Q11] 网络投诉、问题处理表现": {
+            "type": "integer"
+        },
+        "[Q12] 收费标准表现": {
+            "type": "float"
+        },
+        "[Q13] 网络质量表现": {
+            "type": "float"
+        },
+        "[Q14] 与预期相比": {
+            "type": "float"
+        },
+        "[Q15] 与完美网络比": {
+            "type": "float"
+        },
+        "监测日期": {
+            "type": "date",
+            "format": "yyy-MM-dd",
+            "index": "not_analyzed"
+        },
+        "4G总流量（MB）": {
+            "type": "float"
+        },
+        "DNS解析成功率": {
+            "type": "float"
+        },
+        "TCP建立请求次数": {
+            "type": "integer"
+        },
+        "TCP连接成功率": {
+            "type": "float"
+        },
+        "TCP时延": {
+            "type": "float"
+        },
+        "HTTP请求次数": {
+            "type": "integer"
+        },
+        "HTTP请求成功率": {
+            "type": "float"
+        },
+        "业务接入成功率": {
+            "type": "float"
+        },
+        "下行流量小于30KB次数": {
+            "type": "integer"
+        },
+        "业务时延（小包）": {
+            "type": "float"
+        },
+        "下行流量大于500KB总流量（MB）": {
+            "type": "float"
+        },
+        "下载速率（大包）kbps": {
+            "type": "float"
+        },
+        "上行总流量（MB）": {
+            "type": "float"
+        },
+        "下行总流量（MB）": {
+            "type": "float"
+        },
+        "HTTP响应平均时延（ms）": {
+            "type": "float"
+        },
+        "上行TCP重传率": {
+            "type": "float"
+        },
+        "下行TCP重传率": {
+            "type": "float"
+        },
+        "TCP重传率": {
+            "type": "float"
+        },
+        "TCP建链第一步平均时延（ms）": {
+            "type": "float"
+        },
+        "TCP建链第一步建立成功率": {
+            "type": "float"
+        },
+        "TCP建链第二步平均时延（ms）": {
+            "type": "float"
+        },
+        "TCP建链第二步建立成功率": {
+            "type": "float"
+        },
+        "附着请求次数": {
+            "type": "integer"
+        },
+        "附着成功率": {
+            "type": "float"
+        },
+        "激活默认承载成功率": {
+            "type": "float"
+        },
+        "CS Paging请求次数": {
+            "type": "integer"
+        },
+        "CS Paging成功率": {
+            "type": "float"
+        },
+        "Csfb请求次数": {
+            "type": "integer"
+        },
+        "Csfb成功率": {
+            "type": "float"
+        },
+        "使用APN（BOSSTJFT%）的会话数": {
+            "type": "integer"
+        },
+        "EPS更新成功率": {
+            "type": "float"
+        },
+        "EPS附着成功率": {
+            "type": "float"
+        },
+        "联合附着成功率": {
+            "type": "float"
+        },
+        "联合附着平均时延（ms）": {
+            "type": "float"
+        },
+        "EPS附着平均时延（ms）": {
+            "type": "float"
+        },
+        "EPS更新平均时延（ms）": {
+            "type": "float"
+        },
+        "跟踪区TAU成功率": {
+            "type": "float"
+        },
+        "周期性TAU成功率": {
+            "type": "float"
+        },
+        "联合TAU/LAU成功率": {
+            "type": "float"
+        },
+        "附着过程的联合TAU/LAU成功率": {
+            "type": "float"
+        },
+        "跟踪区TAU平均时延（ms）": {
+            "type": "float"
+        },
+        "联合TAU/LAU平均时延（ms）": {
+            "type": "float"
+        },
+        "附着过程的联合TAU/LAU平均时延（ms）": {
+            "type": "float"
+        },
+        "2/3G到4G系统间TAU成功率": {
+            "type": "float"
+        },
+        "2/3G到4G系统间TAU平均时延（ms）": {
+            "type": "float"
+        },
+        "业务请求成功率": {
+            "type": "float"
+        },
+        "业务请求过程平均时延（ms）": {
+            "type": "float"
+        },
+        "MO_csfb请求成功率": {
+            "type": "float"
+        },
+        "Mt_csfb请求成功率": {
+            "type": "float"
+        },
+        "Csfb请求平均时延（ms）": {
+            "type": "float"
+        },
+        "MO_csfb请求平均时延（ms）": {
+            "type": "float"
+        },
+        "Mt_csfb请求平均时延（ms）": {
+            "type": "float"
+        },
+        "PDN连接成功率": {
+            "type": "float"
+        },
+        "激活承载成功率": {
+            "type": "float"
+        },
+        "激活专用承载成功率": {
+            "type": "float"
+        },
+        "激活承载平均时延（ms）": {
+            "type": "float"
+        },
+        "E-RAB建立成功率": {
+            "type": "float"
+        },
+        "E-RAB修改平均时延（ms）": {
+            "type": "float"
+        },
+        "E-RAB修改成功率": {
+            "type": "float"
+        },
+        "Paging成功率": {
+            "type": "float"
+        },
+        "Paging平均时延（ms）": {
+            "type": "float"
+        },
+        "PS Paging成功率": {
+            "type": "float"
+        },
+        "CS Paging平均时延（ms）": {
+            "type": "float"
+        },
+        "PS Paging平均时延（ms）": {
+            "type": "float"
+        },
+        "承载资源分配成功率": {
+            "type": "float"
+        },
+        "UE发起承载资源修改成功率": {
+            "type": "float"
+        },
+        "网络发起承载资源修改成功率": {
+            "type": "float"
+        },
+        "承载资源去激活成功率": {
+            "type": "float"
+        },
+        "承载资源分配平均时长（ms）": {
+            "type": "float"
+        },
+        "MME内通过X2接口的切换成功率": {
+            "type": "float"
+        },
+        "S1接口切出成功率": {
+            "type": "float"
+        },
+        "S1接口切入成功率": {
+            "type": "float"
+        },
+        "MME发起的Reset成功率": {
+            "type": "float"
+        },
+        "eNodeB发起的Reset成功率": {
+            "type": "float"
+        },
+        "S1Setup成功率": {
+            "type": "float"
+        },
+        "MME配置更新成功率": {
+            "type": "float"
+        },
+        "eNB配置更新成功率": {
+            "type": "float"
+        },
+        "过载开始次数": {
+            "type": "integer"
+        },
+        "过载结束次数": {
+            "type": "integer"
+        },
+        "S1异常掉线率": {
+            "type": "float"
+        },
+        "S1异常掉线次数": {
+            "type": "integer"
+        },
+        "重定向到23G次数": {
+            "type": "integer"
+        },
+        "av_g_12": {
+            "type": "float"
+        },
+        "av_g_13": {
+            "type": "float"
+        },
+        "av_g_14": {
+            "type": "float"
+        },
+        "av_g_15": {
+            "type": "float"
+        },
+        "av_12": {
+            "type": "float"
+        },
+        "av_13": {
+            "type": "float"
+        },
+        "av_14": {
+            "type": "float"
+        },
+        "av_15": {
+            "type": "float"
+        }
+    }
+}
