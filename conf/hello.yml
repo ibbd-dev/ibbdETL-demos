@@ -49,4 +49,10 @@ transform:
       isTwoWay: true
 
 target:
-  type: console
+  type: elasticsearch
+  batch: true
+  batchNum: 1000
+  params:
+    host: 'http://localhost:9200/'
+    indexName: merge_mp_20170524
+    deleteIndex: true
