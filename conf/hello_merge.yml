@@ -26,6 +26,16 @@ transform:
     name: template
     field: 主键
     template: "{加密号码}_{主键}"
+  - type: modifier
+    name: replace
+    field: 监测日期
+    useRe: true
+    old: "(\\d+)月(\\d+)日"
+    new: "2017-\\1-\\2"
+  - type: modifier
+    name: typeTransform
+    field: 监测日期
+    newType: date
 
 target:
   type: elasticsearch
