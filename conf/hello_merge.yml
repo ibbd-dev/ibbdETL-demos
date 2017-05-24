@@ -1,5 +1,9 @@
 source:
   type: csv
+  fieldsNameMap:
+  - name: replace
+    old: '.'
+    new: '_'
   fieldNotMatch: keep
   params:
     filename: data/merge_mp_utf8.csv
