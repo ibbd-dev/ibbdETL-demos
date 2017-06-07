@@ -7,6 +7,11 @@ source:
 
 target:
   type: esMapping
-  rowsLimit: 1
+  rowsLimit: 1000
   params:
-    filename: conf/indexs_monitor_es_mapping.json
+    filename: conf/indexs_monitor_es_mapping2.json
+    fields:
+    - name: 监测日期
+      config:
+        - type: date
+          format: "yyyy/MM/dd"
