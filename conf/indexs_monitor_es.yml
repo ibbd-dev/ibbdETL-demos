@@ -1,0 +1,16 @@
+source:
+  type: csv
+  fieldNotMatch: keep
+  params:
+    filename: data/indexs_monitor_utf8.csv
+    delimiter: ','
+
+target:
+  type: elasticsearch
+  batch: true
+  batchNum: 1000
+  params:
+    host: 'http://localhost:9200/'
+    indexName: indexs_monitor_20170607
+    mappingsFile: conf/indexs_monitor_es_mapping.json
+    deleteIndex: true

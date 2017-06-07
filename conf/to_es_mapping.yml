@@ -1,0 +1,12 @@
+source:
+  type: csv
+  fieldNotMatch: keep
+  params:
+    filename: data/indexs_monitor_utf8.csv
+    delimiter: ','
+
+target:
+  type: esMapping
+  rowsLimit: 1
+  params:
+    filename: conf/indexs_monitor_es_mapping.json
