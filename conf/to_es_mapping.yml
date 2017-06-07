@@ -13,5 +13,5 @@ target:
     fields:
     - name: 监测日期
       config:
-        - type: date
-          format: "yyyy/MM/dd"
+        type: date
+        format: "yyyy/MM/dd"
